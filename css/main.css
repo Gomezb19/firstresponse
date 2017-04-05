@@ -1,0 +1,132 @@
+body {
+	background-color: black;
+	margin: 0;
+}
+@media (max-width: 550px) {
+	.logo {
+	font-size: 25px;
+	position: relative;
+    right: 20px;
+	}
+	.wrapper {
+		width: 100%;
+	}
+	.sidebar {
+		padding-bottom: 40px;
+	}
+	.sidebar ul {
+		position: relative;
+		right: 15px;
+	}
+}
+
+@media (max-width: 506px) {
+.wrapper .header .logo  {
+		font-size: 25px;
+	}
+	.header {
+		text-align: center;
+	}
+}
+
+@media (max-width: 460px) {
+	.wrapper .navigation ul {
+		display: grid;
+		text-align: center;
+	}
+}
+@media (max-width: 433px) {
+	.main {
+		padding-bottom: 40px;
+	}
+}
+}
+/*makes background black*/
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+}
+/**/
+
+.header {
+	background-color: blue;
+	padding: 30px;
+}
+/**/
+
+.header .logo {
+	background-color: gold;
+	display: inline-block;
+	font-size: 48px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+/*site navigation*/
+
+.navigation {
+	background-color: gold;
+}
+/*created gold color for the navigation section*/
+.navigation ul {
+	margin: 0;
+	padding-left: 0;
+}
+/*made the navigation line up to the left*/
+.navigation li {
+	display: inline-block;
+	padding: 15px 25px;
+}
+/*made li list from vertically to horizontally*/
+.navigation a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*main div*/
+.main {
+	background-color: blue;
+	/*made background of main div into blue*/
+	float: left;
+	/*made anything in the main div move far to the left*/
+	height: 600px;
+	/*changed height to 600px*/
+	width: 70%;
+	/*changed height to 70%*/
+}
+
+.main h1 {
+	padding-left: 35px;
+}
+/*made a padding for the header 35px to the left*/
+
+.main p {
+	padding: 5px 35px;
+}
+/*gave a padding of 5px by 35px in the heading for the main div*/
+/*sidebar div*/
+.sidebar {
+	background-color: #CECCCD;
+	float: left;
+	height: 600px;
+	width: 30%;
+}
+/*changed background, float text to the default left,
+hieght changed to 600px and width to 30%*/
+.sidebar h2 {
+	padding-left: 20px;
+}
+/*made heading 2 padded to the left of 20px*/
+/*site footer*/
+.footer {
+	clear: both;
+	background-color: gold;
+	font-size: 14px;
+	padding: 9px 0;
+}
+/**/
+.footer p {
+	margin: 0;
+	color: #FFFFFF;
+	padding-left: 35px;
+}
